@@ -1,0 +1,864 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Load static template tag -->
+    {% load static %}
+
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&subset=devanagari,latin-ext" rel="stylesheet">
+    
+    <!-- title of site -->
+    <title>AbnerOnchana</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="{% static 'logo/favicon.png' %}"/>
+    
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="{% static 'css/bootsnav.css' %}">	
+    
+    <!--style.css-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+	
+	<body>
+		
+		<div class="header-container">
+			<a class="brand-text" href="/" id="brand-text">
+				&lt;AbnerOnchana/&gt;
+			</a>
+		</div>
+		<!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			
+			<!-- Lottie Animation Background -->
+			<dotlottie-player 
+				class="lottie-background"
+				src="https://lottie.host/fab57e7e-e710-4e2e-b17d-d5a47f74167b/GWJFg6DcX9.lottie"
+				background="transparent" 
+				speed="1" 
+				loop 
+				autoplay>
+    		</dotlottie-player>
+			
+			<!-- Content Container -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>hi <span>,</span> i am <br> Abner Onchana <span>.</span></h2>
+							<p>Electrical Engineer and Software Developer</p>
+							<a href="{% static 'download/Resume.pdf' %}" download>Download Resume</a>
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+			
+		</section>
+		<!--welcome-hero end -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>Meet Abner</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<p>
+									I am an engineer specializing in <b>software development, machine learning, data science, 
+									and electrical engineering</b>, with a focus on optimizing embedded systems. With a 
+									bachelor’s degree in engineering and hands-on experience, Am committed in developing efficient 
+									<b>hardware and software solutions</b>. Skilled in problem-solving and collaboration, 
+									I deliver innovative, reliable solutions on tight deadlines. Committed to sustainability 
+									and cutting-edge technology, I aim to drive impact in <b>AI, data science, and embedded systems</b>.
+								</p>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>+254740280152</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>abnerogega01@gmail.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="{% static 'images/about/profile_image.jpeg' %}" alt="profile_image">
+								<div class="about-list-icon">
+									<ul>
+										<li>
+											<a href="https://github.com/onchana01" target="_blank">
+												<i class="fa-brands fa-github"></i> 
+											</a>
+										</li>
+
+										<li>
+											<a href="https://replit.com/@ABNEROGEGA" target="_blank">
+    											<i class="fa fa-external-link"></i> 
+											</a>
+
+											
+										</li>
+										<li>
+											<a href="https://x.com/ABNER_COMPANY" target="_blank">
+												<i  class="fa-brands fa-x-twitter"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.linkedin.com/in/abner-onchana/" target="_blank">
+												<i class="fa-brands fa-linkedin"></i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/abnercompany" target="_blank">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+										</li><!-- / li -->
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+		
+		<!--education start -->
+		<section id="education" class="education">
+			<div class="section-heading text-center">
+				<h2>Education</h2>
+			</div>
+			<div class="container">
+				<div class="education-horizontal-timeline">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2017 - 2022</h2>
+									<h3>BS, <span> </span> Electrical & Electronic Engineering</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Dedan Kimathi University of technology
+										</h4>
+										<h5>Nyeri, Kenya</h5>
+										<p class="description">
+											Graduated with Second Class Honours (Upper Division) in Electrical and Electronics Engineering 
+											from Dedan Kimathi University of Technology. Engaged in Dedan Kimathi Innovators Club, focusing 
+											on High Voltage Technology, Power Systems, Control Engineering, Machine Learning, and Renewable 
+											Energy. Passionate about engineering education and energy innovation.
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2023 - 2024</h2>
+									<h3>Nano-Degree  Machine Learning</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Udacity
+										</h4>
+										<h5>California, Usa</h5>
+										<p class="description">
+											Machine Learning & AI Expertise: Skilled in Python programming with experience in machine learning algorithms,
+											deep learning, and reinforcement learning. Proficient in artificial neural networks, natural language processing(NLP),
+											and AI applications.
+											<br>
+
+											Technical Skills: Hands-on experience with TensorFlow, NumPy, Jupyter, Seaborn, Matplotlib, and 
+											data processing for supervised learning and predictive analytics.
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2024 - 2025</h2>
+									<h3>Coursera Backend Dev , Software Engineering</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											IBM Skill Networks
+										</h4>
+										<h5>California, USA</h5>
+										<p class="description">
+											Technical Skills & Expertise: Proficient in Linux scripting, Git & GitHub, Python for AI & 
+											data science, and SQL databases. Experienced in Docker, Kubernetes, and serverless architectures 
+											for scalable applications. Skilled in application security, monitoring, and CI/CD workflows.
+											<br>
+											Projects & Experience: Successfully developed and deployed full-stack applications, integrating 
+											databases, APIs, and security measures. Applied expertise in real-world capstone projects to 
+											build a strong portfolio in software development and DevOps.
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+		</section><!--/.education-->
+		<!--education end -->
+
+		<!--profiles start -->
+		<section id="profiles" class="profiles">
+			<div class="profiles-details">
+				<div class="section-heading text-center">
+					<h1>My Expertise</h1>
+				</div>
+				<div class="container">
+					<div class="profiles-content">
+						<div class="row">
+							<!-- Python -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="static https://www.python.org/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Python</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.python.org/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Python</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Java -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.java.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Java</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.java.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Java</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Django -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.djangoproject.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Django</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.djangoproject.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Django</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- SQL -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.mysql.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">SQL</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.mysql.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">SQL</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- PostgreSQL -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.postgresql.org/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">PostgreSQL</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.postgresql.org/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">PostgreSQL</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- MongoDB -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.mongodb.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">MongoDB</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.mongodb.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">MongoDB</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://jupyter.org/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter Notebook Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Jupyter Notebook</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://jupyter.org/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter Notebook Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Jupyter Notebook</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- HTML -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">HTML</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">HTML</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Bootstrap -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://getbootstrap.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Bootstrap</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://getbootstrap.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Bootstrap</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Power BI -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://powerbi.microsoft.com/" target="_blank">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Power BI</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://powerbi.microsoft.com/" target="_blank">
+												<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Power BI</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Docker -->
+							<div class="col-sm-3">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<a href="https://www.docker.com/" target="_blank">
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg " alt="Docker Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">Docker</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://www.docker.com/" target="_blank">
+												<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Logo" width="50" height="50">
+											</a>
+											<div class="profile-icon-name">Docker</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://aws.amazon.com/" target="_blank">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" width="50" height="50">
+									</a>
+									<div class="profile-icon-name">AWS</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://aws.amazon.com/" target="_blank">
+											<img src=" https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" width="50" height="50">
+										</a>
+										<div class="profile-icon-name">AWS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						</div>
+				</div>
+		</section><!--/.my expertise-->
+		<!--skills end -->
+		<!--experience start -->
+		<section id="experience" class="experience">
+			<div class="section-heading text-center">
+				<h2>Profesional experience</h2>
+			</div>
+			<div class="container">
+				<div class="experience-content">
+						<div class="main-timeline">
+							<ul>
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															Fiver Freelance
+														</h4>
+														<h5>Remote</h5>
+														<p class="description">
+															As a software developer, I collaborate with stakeholders to gather and understand requirements, 
+															create efficient software architecture, write clean and maintainable code, develop and execute test plans, 
+															and identify and fix defects. I document code and processes comprehensively, update and improve applications 
+															for enhanced performance, and work with cross-functional teams to deliver projects. I use version control 
+															systems like Git to manage and track code changes and continuously learn the latest industry trends, tools, 
+															and technologies to stay proficient in the field.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2024 - to-date
+													</h2>
+													<h3>Software Developer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2023 - 2024</h2>
+													<h3><b>GeoWattPlus Technologies</b></h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															Co-Founder & CTO
+														</h4>
+														<h5>Nairobi, Kenya</h5>
+														<p class="description">
+															Hybrid inverter and lithium battery integration Technology.
+															Enabled real-time energy monitoring and control.
+															Designed battery management algorithms for optimal performance.
+															Worked with embedded systems and real-time data processing.
+															Ensured stability and reliability of energy storage systems.
+															Created custom software for renewable energy solutions.
+															Collaborated with hardware and software teams for seamless integration.
+															Focused on sustainability and energy efficiency.
+															Designed commercial solar energy systems.
+															Solved complex energy management challenges.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true">2023</i></span>
+														2023 - 2023
+													</h2>
+													<h3>Control System Engineer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															Mogeni Tea Factory
+														</h4>
+														<h5>Nyamira, Kenya</h5>
+														<p class="description">
+															Led backup power setup with generators and transfer switches.
+															Developed expertise in electrical and control motor circuits.
+															Proficient in automation and industrial networking technologies.
+															Implemented advanced sensors for CTC automation.
+															Worked in fast-paced industrial environments with a focus on safety.
+															Managed projects and coordinated cross-functional teams.
+															Integrated hardware and software for efficient system performance.
+															Experienced in real-time data processing and control.
+															Strong problem-solving and troubleshooting skills.
+															Designed and implemented commercial solar energy systems
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2023 - 2023
+													</h2>
+													<h3>Control System Engineer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								
+
+							</ul>
+						</div><!--.main-timeline-->
+					</div><!--.experience-content-->
+			</div>
+
+		</section><!--/.experience-->
+		<!--experience end -->
+
+		<!--portfolio start -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>MyWork</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="{% static 'images/portfolio/p1.jpg' %}" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												Web App
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="{% static 'images/portfolio/p2.jpg' %}" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												Backend Development
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="{% static 'images/portfolio/p3.jpg' %}" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web design
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="{% static 'images/portfolio/p4.jpg' %}" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web development
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="{% static 'images/portfolio/p5.jpg' %}" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web development
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+				</div><!--/.container-->
+			</div>
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+		<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>CONTACT</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-form">
+									<form method="POST" action="">
+										{% csrf_token %}
+										<div class="row">
+											<div class="col-sm-10 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												</div><!--/.form-group-->
+											</div>
+											
+											<div class="col-sm-10 col-xs-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="single-contact-btn">
+													<a class="contact-btn" href="#" role="button">submit</a>
+												</div><!--/.single-single-contact-btn-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+									</form><!--/form-->
+								</div><!--/.contact-form-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class="contact-add-head">
+										<h3>ABNER ONCHANA</h3>
+										<p>Software Developer</p>
+									</div>
+									<div class="contact-add-info">
+										<div class="single-contact-add-info">
+											<h3>phone</h3>
+											<p>+254740280152</p>
+										</div>
+										<div class="single-contact-add-info">
+											<h3>email</h3>
+											<p>abnerogega01@gmail.com</p>
+										</div>
+										<div class="single-contact-add-info">
+											<h3>website</h3>
+											<p>www.abneronchana.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-adress-->
+								<div class="hm-foot-icon">
+									<ul>
+										<li>
+											<a href="https://github.com/onchana01" target="_blank">
+												<i class="fa-brands fa-github"></i> 
+											</a>
+										</li>
+
+										<li>
+											<a href="https://replit.com/@ABNEROGEGA" target="_blank">
+    											<i class="fa fa-external-link"></i> 
+											</a>
+
+											
+										</li>
+										<li>
+											<a href="https://x.com/ABNER_COMPANY" target="_blank">
+												<i  class="fa-brands fa-x-twitter"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.linkedin.com/in/abner-onchana/" target="_blank">
+												<i class="fa-brands fa-linkedin"></i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/abnercompany" target="_blank">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+										</li><!-- / li -->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+
+		</section><!--/.contact-->
+		<!--contact end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						AbnerOnchana&copy; 2025
+
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			
+			
+        </footer><!--/.footer-copyright-->
+		
+        <!-- Modernizr (external CDN, no static tag needed) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+		<!-- jQuery (external CDN) -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		
+
+		<!-- jQuery Easing (external CDN) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		<!-- DotLottie Player (external CDN, module) -->
+		<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+		<!-- Custom JS (local static file) -->
+		<script src="{% static 'js/custom.js' %}"></script>
+
+		<!-- Scripts JS (local static file) -->
+		<script src="{% static 'js/scripts.js' %}"></script>
+        
+    
+    </body>
+	
+</html>
